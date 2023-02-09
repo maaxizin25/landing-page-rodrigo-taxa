@@ -27,8 +27,8 @@ export const Navbar = () => {
           </div>
           <nav className="nav-desktop">
             <Link to="/">Home</Link>
-            <Link to="/contato">Contato</Link>
             <Link to="/sobre">Sobre-nós</Link>
+            <Link to="/contato">Contato</Link>
           </nav>
           {openNav ? (
             <img onClick={setHamb} src={closeButton} alt="" />

@@ -1,7 +1,6 @@
-import { useSpring, animated } from "react-spring";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { CounterClientStyle } from "./style";
 
 export const CountClient = () => {
