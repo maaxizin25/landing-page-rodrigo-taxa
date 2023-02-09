@@ -23,8 +23,7 @@ export const Lecture = () => {
       </div>
       <div data-aos="fade-up" data-aos-duration="1500">
         <h2>
-          Por que nosso programa é <br /> A MELHOR IMERSÃO PARA <br />{" "}
-          EMPRESÁRIOS DO BRASIL:
+          Por que nosso programa é A MELHOR IMERSÃO PARA EMPRESÁRIOS DO BRASIL:
         </h2>
         <ul>
           <li>

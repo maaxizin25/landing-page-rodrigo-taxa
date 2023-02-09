@@ -9,6 +9,7 @@ export const FinalSectionStyle = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-right: 40px;
   }
   div:nth-child(1) > h2 {
     color: var(--grey-300);
@@ -29,6 +30,19 @@ export const FinalSectionStyle = styled.div`
   @media (max-width: 1030px) {
     flex-direction: column;
     align-items: center;
+    * {
+      text-align: center;
+    }
+    div:nth-child(1) > h2 {
+      font-size: 30px;
+    }
+    div:nth-child(1) {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
     div:nth-child(1) {
       align-items: center;
     }
@@ -37,12 +51,6 @@ export const FinalSectionStyle = styled.div`
     }
   }
 
-  @media (max-width: 424px) {
-    * {
-      text-align: center;
-    }
-    div:nth-child(1) > h2 {
-      font-size: 30px;
-    }
+  @media (max-width: 600px) {
   }
 `;

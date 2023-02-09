@@ -22,7 +22,7 @@ export const LectureStyle = styled.div`
     max-width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 0px 16px 16px 0px;
+    border-radius: 16px;
   }
   ul {
     display: flex;
@@ -38,10 +38,19 @@ export const LectureStyle = styled.div`
     width: 15px;
   }
   @media (max-width: 1030px) {
+    h2 {
+      text-align: center;
+    }
     flex-direction: column;
     align-items: center;
     div:nth-child(2) {
       align-items: center;
+    }
+    div:nth-child(1) {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   @media (max-width: 669px) {

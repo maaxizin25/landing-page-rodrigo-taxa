@@ -35,6 +35,12 @@ export const Introduction = () => {
             src={rodrigo}
             alt=""
           />
+          <img
+            data-aos="fade-down"
+            data-aos-duration="600"
+            src={circle1}
+            alt=""
+          />
         </div>
       </IntroductionContainer>
     </Container>

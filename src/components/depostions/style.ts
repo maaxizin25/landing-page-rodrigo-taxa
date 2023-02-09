@@ -83,11 +83,11 @@ export const DepositionsStyle = styled.div`
       align-items: center;
       justify-content: center;
     }
-  }
-  @media (max-width: 424px) {
     * {
       text-align: center;
     }
+  }
+  @media (max-width: 424px) {
     li {
       width: 100%;
     }

@@ -50,6 +50,15 @@ export const IntroductionContainer = styled.div`
       justify-content: center;
       margin: 0 auto;
     }
+    div:nth-child(2) {
+      width: 100%;
+      position: relative;
+    }
+    div:nth-child(2) > img:nth-child(2) {
+      max-width: 100%;
+      position: absolute;
+      align-items: center;
+    }
   }
   @media (max-width: 460px) {
     div > img:nth-child(1) {

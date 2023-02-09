@@ -15,16 +15,13 @@ export const FinalSection = () => {
       <FinalSectionStyle>
         <div>
           <h2>
-            POR MAIS DE 23 ANOS <br /> NOSSA EQUIPE TEM <br /> FEITO A DIFERENÇA
-            <br />
-            TREINANDO GESTORES E <br /> COLABORADORES.
+            POR MAIS DE 23 ANOS NOSSA EQUIPE TEM FEITO A DIFERENÇA TREINANDO
+            GESTORES E COLABORADORES.
           </h2>
           <p>
-            Ao longo dos mais de 23 anos
-            <br /> de desenvolvimento, através de imersões, <br />
-            mentorias e palestras nós mudamos e <br />
-            impulsionamos a vida de milhares de
-            <br /> empresários e de toda a cadeia que direta ou <br />
+            Ao longo dos mais de 23 anos de desenvolvimento, através de
+            imersões, mentorias e palestras nós mudamos e impulsionamos a vida
+            de milhares de empresários e de toda a cadeia que direta ou
             indiretamente faz parte do negócio.
           </p>
           <ButtonGo />
