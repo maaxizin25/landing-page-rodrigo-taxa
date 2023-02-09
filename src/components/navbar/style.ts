@@ -12,6 +12,7 @@ export const Header = styled.header`
   .nav-desktop {
     display: flex;
     gap: 20px;
+    padding-right: 20px;
   }
   a:hover {
     color: var(--color-primary);

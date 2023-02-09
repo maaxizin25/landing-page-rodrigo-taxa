@@ -41,5 +41,8 @@ export const FinalSectionStyle = styled.div`
     * {
       text-align: center;
     }
+    div:nth-child(1) > h2 {
+      font-size: 30px;
+    }
   }
 `;

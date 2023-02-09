@@ -39,5 +39,8 @@ export const MenuTextDiv = styled.div`
     * {
       text-align: center;
     }
+    div:nth-child(1) {
+      padding: 4px;
+    }
   }
 `;

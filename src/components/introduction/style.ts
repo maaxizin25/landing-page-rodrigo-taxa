@@ -60,6 +60,7 @@ export const IntroductionContainer = styled.div`
     }
     h1 {
       text-align: center;
+      font-size: 30px;
     }
     p {
       text-align: center;

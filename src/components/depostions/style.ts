@@ -91,5 +91,8 @@ export const DepositionsStyle = styled.div`
     li {
       width: 100%;
     }
+    div:nth-child(1) {
+      padding: 1px;
+    }
   }
 `;

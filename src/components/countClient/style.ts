@@ -20,5 +20,13 @@ export const CounterClientStyle = styled.div`
   }
   @media (max-width: 1024px) {
     height: auto;
+    flex-direction: column;
+    padding: 20px;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;

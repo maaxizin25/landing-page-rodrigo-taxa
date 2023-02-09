@@ -17,7 +17,7 @@ export const Depositions = () => {
   return (
     <DepositionsStyle>
       <Container>
-        <div className="max">
+        <div>
           <h2>TESTEMUNHOS</h2>
           <p>O QUE NOSSOS CLIENTES ESTÃO DIZENDO</p>
         </div>
