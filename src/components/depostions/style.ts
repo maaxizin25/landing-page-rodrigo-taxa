@@ -1,9 +1,13 @@
 import styled from "styled-components";
+import back from "../../assets/background.jpg";
 
 export const DepositionsStyle = styled.div`
+  background-image: url(${back});
+  background-color: red;
   display: flex;
   flex-direction: column;
-  margin-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 80px;
 
   div:nth-child(1) {
     display: flex;
