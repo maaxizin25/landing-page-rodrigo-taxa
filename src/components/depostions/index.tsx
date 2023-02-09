@@ -14,6 +14,10 @@ export const Depositions = () => {
     AOS.init();
   }, []);
 
+  function newTab(url: string) {
+    window.open(url);
+  }
+
   return (
     <DepositionsStyle>
       <Container>
@@ -22,7 +26,15 @@ export const Depositions = () => {
           <p>O QUE NOSSOS CLIENTES ESTÃO DIZENDO</p>
         </div>
         <ul>
-          <li data-aos="fade-right" data-aos-duration="1500">
+          <li
+            onClick={() =>
+              newTab(
+                "https://www.youtube.com/watch?v=khDkQVVBjQo&ab_channel=RodrigoTaxa-SummitEduca%C3%A7%C3%A3o"
+              )
+            }
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <div>
               <img src={dep1} alt="" />
               <img src={play} alt="" />
@@ -31,14 +43,21 @@ export const Depositions = () => {
               <h3>Fabrícia - AudioVisual</h3>
               <p>
                 <i>
-                  {" "}
                   “Sinto que meus funcionários saíram muito mais motivados
                   depois da palestra!”
                 </i>
               </p>
             </div>
           </li>
-          <li data-aos="fade-up" data-aos-duration="1500">
+          <li
+            onClick={() =>
+              newTab(
+                "https://www.youtube.com/watch?v=zi9JDmfUrCI&ab_channel=RodrigoTaxa-SummitEduca%C3%A7%C3%A3o"
+              )
+            }
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div>
               <img src={dep2} alt="" />
               <img src={play} alt="" />
@@ -53,7 +72,15 @@ export const Depositions = () => {
               </p>
             </div>
           </li>
-          <li data-aos="fade-up" data-aos-duration="1500">
+          <li
+            onClick={() =>
+              newTab(
+                "https://www.youtube.com/watch?v=deo04_i58Zc&ab_channel=RodrigoTaxa-SummitEduca%C3%A7%C3%A3o"
+              )
+            }
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div>
               <img src={dep3} alt="" />
               <img src={play} alt="" />
