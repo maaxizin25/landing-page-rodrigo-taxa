@@ -5,7 +5,7 @@ export const IntroductionContainer = styled.div`
 
   h1 {
     font-family: "Roboto", sans-serif;
-    color: var(--grey-300);
+    color: var(--color-primary);
   }
 
   div > p {
@@ -66,10 +66,11 @@ export const IntroductionContainer = styled.div`
     }
     div:nth-child(1) {
       padding-top: 10px;
+      width: 100%;
     }
     h1 {
       text-align: center;
-      font-size: 30px;
+      font-size: 25px;
     }
     p {
       text-align: center;

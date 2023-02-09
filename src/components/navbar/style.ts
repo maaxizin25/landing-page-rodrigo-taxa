@@ -14,6 +14,10 @@ export const Header = styled.header`
     gap: 20px;
     padding-right: 20px;
   }
+  a {
+    font-weight: 600;
+    color: var(--grey-300);
+  }
   a:hover {
     color: var(--color-primary);
   }

@@ -5,7 +5,8 @@ export const MenuTextDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  background-color: whitesmoke;
 
   .circle-model {
     position: absolute;

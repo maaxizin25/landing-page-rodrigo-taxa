@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const LectureStyle = styled.div`
   display: flex;
-  justify-content: space-between;
   max-width: 1600px;
   margin: 0 auto;
   margin-bottom: 80px;
+  padding-top: 20px;
 
   div:nth-child(1) {
     width: 648px;
@@ -13,7 +13,6 @@ export const LectureStyle = styled.div`
   }
   div:nth-child(2) {
     align-items: flex-start;
-    width: 45%;
     flex-direction: column;
     display: flex;
     gap: 40px;
@@ -29,6 +28,7 @@ export const LectureStyle = styled.div`
     flex-direction: column;
     gap: 10px;
   }
+
   li {
     display: flex;
     align-items: center;
@@ -51,6 +51,9 @@ export const LectureStyle = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    ul {
+      padding: 10px;
     }
   }
   @media (max-width: 669px) {

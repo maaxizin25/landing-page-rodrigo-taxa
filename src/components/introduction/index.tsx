@@ -22,9 +22,9 @@ export const Introduction = () => {
             BRASIL
           </h1>
           <p>
-            JÁ AJUDAMOS MAIS DE 5.000 EMPRESAS A CRESCER.
-            <br /> LIDERANÇA, GESTÃO E ESTRATÉGIA SÃO NOSSAS
-            <br /> ESPECIALIDADES.
+            Já ajudamos mais de 5.000 empresas a crescer.
+            <br /> liderança, gestão e estratégia são nossas
+            <br /> especialidades.
           </p>
           <ButtonGo data-aos="fade-up" data-aos-duration="600" />
         </div>
