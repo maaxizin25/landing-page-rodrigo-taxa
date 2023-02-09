@@ -36,10 +36,10 @@ export const MenuTextDiv = styled.div`
     color: var(--grey-300);
     font-weight: 600;
   }
+  * {
+    text-align: center;
+  }
   @media (max-width: 460px) {
-    * {
-      text-align: center;
-    }
     div:nth-child(1) {
       padding: 4px;
     }

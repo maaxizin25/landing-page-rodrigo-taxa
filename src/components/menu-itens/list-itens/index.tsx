@@ -15,7 +15,7 @@ export const ListItens = () => {
     <ListItensStyle>
       {listItensObj.map((e) => {
         return (
-          <li data-aos="fade-up" data-aos-duration="1000">
+          <li key={e.title} data-aos="fade-up" data-aos-duration="1000">
             <div>
               <img src={e.img} alt="" />
             </div>

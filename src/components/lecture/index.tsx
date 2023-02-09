@@ -15,7 +15,7 @@ export const Lecture = () => {
     <LectureStyle>
       <div>
         <img
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="1500"
           src={lecturePicture}
           alt=""

@@ -32,7 +32,7 @@ export const Depositions = () => {
                 "https://www.youtube.com/watch?v=khDkQVVBjQo&ab_channel=RodrigoTaxa-SummitEduca%C3%A7%C3%A3o"
               )
             }
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-duration="1500"
           >
             <div>

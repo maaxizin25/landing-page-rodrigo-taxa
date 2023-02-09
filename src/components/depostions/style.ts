@@ -46,7 +46,7 @@ export const DepositionsStyle = styled.div`
     height: 168px;
     object-fit: cover;
     opacity: 0.5;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 16px;
   }
   li > div:nth-child(1) {
     background-color: black;

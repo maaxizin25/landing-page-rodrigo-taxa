@@ -39,20 +39,22 @@ export const IntroductionContainer = styled.div`
     z-index: 1;
   }
   @media (max-width: 1030px) {
+    * {
+      text-align: center;
+    }
     flex-direction: column-reverse;
     div:nth-child(2) {
       align-items: center;
       justify-content: center;
+      width: 100%;
+      position: relative;
     }
     div:nth-child(1) {
       width: 100%;
       align-items: center;
       justify-content: center;
       margin: 0 auto;
-    }
-    div:nth-child(2) {
-      width: 100%;
-      position: relative;
+      margin-bottom: 20px;
     }
     div:nth-child(2) > img:nth-child(2) {
       max-width: 100%;
