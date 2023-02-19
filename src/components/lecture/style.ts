@@ -40,6 +40,7 @@ export const LectureStyle = styled.div`
   @media (max-width: 1030px) {
     h2 {
       text-align: center;
+      color: var(--grey-300);
     }
     flex-direction: column;
     align-items: center;
