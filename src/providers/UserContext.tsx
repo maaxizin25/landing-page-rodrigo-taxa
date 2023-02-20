@@ -4,7 +4,7 @@ import { iUserValue, Props } from "../interfaces";
 export const UserContext = createContext({} as iUserValue);
 
 export const UserProvider = ({ children }: Props) => {
-  const [modal, setModal] = useState<boolean>(true);
+  const [modal, setModal] = useState<boolean>(false);
 
   function modalForm(value: boolean) {
     setModal(value);

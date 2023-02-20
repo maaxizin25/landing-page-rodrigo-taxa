@@ -10,23 +10,27 @@ export const FormStyled = styled.div`
   width: 100%;
   align-items: center;
   form {
+    padding: 25px;
     position: relative;
     width: 500px;
-    height: 600px;
+    min-height: 500px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    label + input {
+      margin-bottom: 10px;
+    }
     select {
-      width: 80%;
+      width: 100%;
       height: 45px;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
     label {
-      width: 80%;
       font-size: 15px;
+      width: 100%;
     }
     span:nth-child(2) {
       display: flex;
@@ -48,5 +52,13 @@ export const FormStyled = styled.div`
       font-size: 20px;
       color: var(--grey-100);
     }
+  }
+  .error-input {
+    color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 5px;
   }
 `;

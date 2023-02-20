@@ -18,7 +18,7 @@ export interface Props {
 }
 
 export interface formValues {
-  name: string;
+  nome: string;
   empresa: string;
   telefone: number;
   email: string;
