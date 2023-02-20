@@ -10,7 +10,6 @@ import { formValues } from "../../interfaces";
 import Aos from "aos";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
-import { ToastContainer } from "react-toastify/dist/components";
 
 export const FormSend = () => {
   useEffect(() => {

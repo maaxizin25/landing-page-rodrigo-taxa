@@ -1,6 +1,4 @@
 import { listItensObj } from "../../../database";
-import { iListMenu } from "../../../interfaces";
-import { ButtonGo } from "../../button";
 import { ListItensStyle } from "./style";
 import AOS from "aos";
 import "aos/dist/aos.css";

@@ -1,8 +1,8 @@
 import { Container } from "../../styles/container";
 import { DepositionsStyle } from "./style";
-import dep1 from "../../assets/dep1.jpg";
-import dep2 from "../../assets/dep2.jpg";
-import dep3 from "../../assets/dep3.jpg";
+import dep1 from "../../assets/dep1.webp";
+import dep2 from "../../assets/dep2.webp";
+import dep3 from "../../assets/dep3.webp";
 import play from "../../assets/play.svg";
 import { ButtonGo } from "../button";
 import AOS from "aos";

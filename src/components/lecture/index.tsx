@@ -1,5 +1,5 @@
 import { ButtonGo } from "../button";
-import lecturePicture from "../../assets/palestra.png";
+import lecturePicture from "../../assets/palestra.webp";
 import { LectureStyle } from "./style";
 import check from "../../assets/check.svg";
 import AOS from "aos";

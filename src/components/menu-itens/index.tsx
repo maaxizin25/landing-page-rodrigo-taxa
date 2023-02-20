@@ -1,7 +1,6 @@
 import { Container } from "../../styles/container";
 import { ListItens } from "./list-itens";
 import { MenuTextDiv } from "./style";
-import circle2 from "../../assets/circle2.svg";
 import { ButtonGo } from "../button";
 
 export const MenuItens = () => {
