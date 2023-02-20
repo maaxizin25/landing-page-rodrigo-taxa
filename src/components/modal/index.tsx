@@ -85,6 +85,7 @@ export const FormSend = () => {
           }
         }
       );
+    modalForm(false);
   }
 
   return (
